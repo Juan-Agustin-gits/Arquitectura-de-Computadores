@@ -67,7 +67,7 @@ int isPower2(int x) { // Entrega 1 si es potencia de 2 y 0 en otro caso
 int main() {
 	printf("%d \n", isZero(0));
 	printf("%d \n", minusOne());
-	printf("%x\n", bitNor(4,5));
+	printf("%d \n", bitNor(4,5)); // Si se ingresan numeros en hexadecimal, debe ser con %x
 	printf("%x \n", getByte(0x12345678, 1) );
 	printf("%d \n", isNotEqual(5, 7) );
 	printf("%d \n", negate(7) );
