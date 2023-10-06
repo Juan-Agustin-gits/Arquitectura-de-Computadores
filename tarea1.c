@@ -65,7 +65,7 @@ int isPower2(int x) { // Entrega 1 si es potencia de 2 y 0 en otro caso
 }
 
 int main() {
-	printf("%d \n", isZero(0));*/
+	printf("%d \n", isZero(0));
 	printf("%d \n", minusOne());
 	printf("%d\n", bitNor(4,5));
 	printf("%d \n", getByte(0x12345678, 1) );
@@ -77,3 +77,10 @@ int main() {
 	printf("%d \n", isPower2(1) );
 	return 0;
 }
+/*
+Integrantes (GRUPO 29):
+
+	Juan Agustin Umaña Silva
+	Martin Alonso Lara Castro
+	Benjamin Cristobal Villarroel Rubio
+*/
