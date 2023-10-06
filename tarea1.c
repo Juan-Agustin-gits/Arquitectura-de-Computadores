@@ -67,13 +67,13 @@ int isPower2(int x) { // Entrega 1 si es potencia de 2 y 0 en otro caso
 int main() {
 	printf("%d \n", isZero(0));
 	printf("%d \n", minusOne());
-	printf("%d\n", bitNor(4,5));
-	printf("%d \n", getByte(0x12345678, 1) );
+	printf("%x\n", bitNor(4,5));
+	printf("%x \n", getByte(0x12345678, 1) );
 	printf("%d \n", isNotEqual(5, 7) );
 	printf("%d \n", negate(7) );
 	printf("%d \n", isPositive(5) );
 	printf("%d \n", isGreater(5, 3) );
-	printf("%d \n", reverseBytes(0x01020304) );
+	printf("%x \n", reverseBytes(0x01020304) );
 	printf("%d \n", isPower2(1) );
 	return 0;
 }
