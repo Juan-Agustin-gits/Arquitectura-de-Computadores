@@ -17,7 +17,7 @@ int bitNor(int x, int y) {// hace ~(x|y) pero sin usar el OR | (gcc (Ubuntu 11.3
 
 // Problema 4
 int getByte(int x, int n) {// extrane el byte n de un word (gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0)
-	return (!((x>>30)>>1));
+	return (!((x>>30)>>1)) & oxff;
 }
 
 // Problema 5
